@@ -2,7 +2,7 @@ import { StrictMode } from 'react'
 import { createRoot } from 'react-dom/client'
 import { createBrowserRouter, RouterProvider } from 'react-router-dom'
 import Root from "./Root.jsx"
-import {Home, About, Contact} from "./components/OutletComponents"
+import {Home, About, Contact} from "./components/PageIndex.js"
 
 // It is done in 2 ways
 const router = createBrowserRouter([
