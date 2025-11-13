@@ -2,7 +2,7 @@ import { StrictMode } from 'react'
 import { createRoot } from 'react-dom/client'
 import { createBrowserRouter, createRoutesFromElements, RouterProvider, Route } from 'react-router-dom'
 import Root from "./Root.jsx"
-import {Home, About, Contact, User, Github} from "./components/PageIndex.js"
+import {Home, About, Contact, User, Github, githubInfoLoader} from "./components/PageIndex.js"
 
 // 2 ways to do it
 
@@ -31,8 +31,15 @@ const router = createBrowserRouter(
       <Route path="about" element={<About/>}/>
       <Route path="contact" element={<Contact/>}/>
       {/* Here, :id is the variable and the data will rendered based on this variable name */}
-      <Route path="user/:userId/:userName" element={<User/>}/>
-      <Route path='/github' element={<Github/>} />
+      <Route path="user/:userId" element={<User/>}>
+        <Route path=":userName"/>
+      </Route>
+      <Route 
+        path='/github' 
+        element={<Github/>}
+        // It is allowed to use callback here. But direct func can be called as well
+        loader={githubInfoLoader}
+      />
     </Route>
   )
 )
