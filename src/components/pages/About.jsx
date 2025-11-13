@@ -7,6 +7,7 @@ export default function About() {
                         <img
                             src="https://images.unsplash.com/photo-1600103626454-ec1f6d636de3?q=80&w=1658&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3Dleft-image/preview/images/startup.png"
                             alt="image"
+                            className="rounded-xl"
                         />
                     </div>
                     <div className="md:7/12 lg:w-6/12">
