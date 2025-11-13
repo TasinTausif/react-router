@@ -1,18 +1,53 @@
-# React + Vite
+# React Router Project
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+This project is a **React + Vite** based demo of routing using React Router.  
+It showcases how to use multiple routes, navigation, and route-based components in a React application styled with **Tailwind CSS**.
 
-Currently, two official plugins are available:
+---
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) (or [oxc](https://oxc.rs) when used in [rolldown-vite](https://vite.dev/guide/rolldown)) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## 🚀 Features
 
-## React Compiler
+- Multiple pages/routes (Home, About, Contact, etc) using React Router  
+- Navigation menu for switching between routes  
+- Tailwind CSS styling for responsive and clean UI  
+- React Hooks (e.g., `useState`, `useEffect`) used in components  
+- Clean project setup with **Vite** for fast development
 
-The React Compiler is enabled on this template. See [this documentation](https://react.dev/learn/react-compiler) for more information.
+---
 
-Note: This will impact Vite dev & build performances.
+## 🛠️ Tech Stack
 
-## Expanding the ESLint configuration
+| Technology        | Purpose                                  |
+|-------------------|-------------------------------------------|
+| React             | Front-end JavaScript library              |
+| Vite              | Build tool & dev server                   |
+| React Router      | Client-side routing for React             |
+| Tailwind CSS      | Utility-first CSS framework               |
+| JSX / React Hooks | Component logic and state management      |
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+---
+
+## 📋 Getting Started
+
+### Prerequisites  
+- Node.js (v14+ recommended)  
+- npm or yarn
+
+### Installation  
+    git clone https://github.com/TasinTausif/react-router.git
+    cd react-router
+    npm install
+
+### Running the app
+    npm run dev
+
+Open your browser and go to the URL shown in the terminal ( http://localhost:5173).
+
+
+## 🎮 How to Use
+
+Use the navigation links in the header to move between pages.
+
+Each route renders a different component (e.g., Home, About).
+
+Observe how the browser’s URL changes and the page content updates without a full page refresh (client-side routing).
