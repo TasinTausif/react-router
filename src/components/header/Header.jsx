@@ -4,7 +4,7 @@ import {Link, NavLink} from "react-router-dom"
 export default function Header() {
 
     const id = 101;
-    const userData = "Magna"
+    const userData = "VerifiedUser"
 
     return (
         <header className="shadow sticky z-50 top-0">
