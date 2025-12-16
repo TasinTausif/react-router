@@ -5,6 +5,29 @@ It showcases how to use multiple routes, navigation, and route-based components 
 
 ---
 
+## 🌐 Live Demo
+
+👉 **Preview:**  
+👉 https://react-router-chai.vercel.app/
+
+---
+
+## 📸 Screenshots
+
+### Home Page
+<img src="./screenshots/home.png" alt="Home" />
+
+### About Page
+<img src="./screenshots/about.png" alt="About Us" />
+
+### Contact Us
+<img src="./screenshots/contact.png" alt="Contact Us" />
+
+### User Page
+<img src="./screenshots/user.png" alt="User" />
+
+---
+
 ## 🚀 Features
 
 - Multiple pages/routes (Home, About, Contact, etc) using React Router  
@@ -17,13 +40,14 @@ It showcases how to use multiple routes, navigation, and route-based components 
 
 ## 🛠️ Tech Stack
 
-| Technology        | Purpose                                  |
+| Technology        | Purpose                                   |
 |-------------------|-------------------------------------------|
 | React             | Front-end JavaScript library              |
 | Vite              | Build tool & dev server                   |
 | React Router      | Client-side routing for React             |
 | Tailwind CSS      | Utility-first CSS framework               |
 | JSX / React Hooks | Component logic and state management      |
+| Hosting           | Vercel                                    |
 
 ---
 
